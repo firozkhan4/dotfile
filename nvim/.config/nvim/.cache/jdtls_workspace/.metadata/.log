@@ -1,0 +1,369 @@
+!SESSION 2025-06-17 20:55:48.117 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/firoz/.dotfile/nvim/.config/nvim/.cache/jdtls_workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:49.968
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:50.047
+!MESSAGE Started org.eclipse.buildship.core 57ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:50.047
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:50.256
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:50.353
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:50.358
+!MESSAGE Initializing Java Language Server 1.46.1.202504011455
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:51.118
+!MESSAGE ProjectRegistryRefreshJob finished 1071ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:51.169
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:51.170
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:51.199
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:51.206
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:51.230
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:53.818
+!MESSAGE Workspace initialized in 2620ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:53.824
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:54.619
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:55.227
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:55.262
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:55.263
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:56.712
+!MESSAGE begin problem for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:56.716
+!MESSAGE 9 problems reported for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:55:56.718
+!MESSAGE Validated 1. Took 889 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:27.227
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:27.228
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:27.272
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:27.277
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-06-17 20:56:27.942 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/firoz/.dotfile/nvim/.config/nvim/.cache/jdtls_workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:29.683
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:29.795
+!MESSAGE Started org.eclipse.buildship.core 89ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:29.795
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:29.797
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:30.134
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:30.273
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:30.275
+!MESSAGE Initializing Java Language Server 1.46.1.202504011455
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:30.320
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:30.320
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:30.382
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:31.593
+!MESSAGE RepositoryRegistryUpdateJob finished 1223ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:31.643
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:31.893
+!MESSAGE Workspace initialized in 1528ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:31.905
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:31.948
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:31.948
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:33.011
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:34.111
+!MESSAGE begin problem for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:34.114
+!MESSAGE 9 problems reported for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:34.116
+!MESSAGE Validated 1. Took 502 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:37.200
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:37.206
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:37.291
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:37.296
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-06-17 20:56:38.003 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/firoz/.dotfile/nvim/.config/nvim/.cache/jdtls_workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:39.794
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:39.866
+!MESSAGE Started org.eclipse.buildship.core 50ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:39.866
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:39.870
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.056
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.113
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.115
+!MESSAGE Initializing Java Language Server 1.46.1.202504011455
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.124
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.124
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.154
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:40.979
+!MESSAGE RepositoryRegistryUpdateJob finished 837ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:41.002
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:41.113
+!MESSAGE Workspace initialized in 971ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:41.119
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:41.159
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:41.160
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:42.293
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:43.672
+!MESSAGE begin problem for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:43.675
+!MESSAGE 9 problems reported for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:56:43.677
+!MESSAGE Validated 1. Took 732 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:06.582
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:06.587
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:06.694
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:06.699
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-06-17 20:57:07.397 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/firoz/.dotfile/nvim/.config/nvim/.cache/jdtls_workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.111
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.180
+!MESSAGE Started org.eclipse.buildship.core 48ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.180
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.184
+!MESSAGE ProjectRegistryRefreshJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.341
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.381
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.383
+!MESSAGE Initializing Java Language Server 1.46.1.202504011455
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.448
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.448
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:09.486
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:10.353
+!MESSAGE RepositoryRegistryUpdateJob finished 887ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:10.380
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:10.505
+!MESSAGE Workspace initialized in 1039ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:10.515
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:10.560
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:10.561
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:11.554
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:12.935
+!MESSAGE begin problem for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:12.942
+!MESSAGE 9 problems reported for /ProductRequestDto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:12.945
+!MESSAGE Validated 1. Took 740 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:16.377
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:16.458
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:16.543
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:16.551
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-06-17 20:57:16.750 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/firoz/.dotfile/nvim/.config/nvim/.cache/jdtls_workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:18.698
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:18.768
+!MESSAGE Started org.eclipse.buildship.core 47ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:18.769
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:18.771
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:18.945
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:18.999
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:19.001
+!MESSAGE Initializing Java Language Server 1.46.1.202504011455
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:19.064
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:19.064
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:19.969
+!MESSAGE RepositoryRegistryUpdateJob finished 872ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:20.002
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:20.150
+!MESSAGE Workspace initialized in 1053ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:58.779
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:58.780
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:58.863
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-17 20:57:58.870
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

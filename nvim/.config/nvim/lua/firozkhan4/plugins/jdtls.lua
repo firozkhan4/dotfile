@@ -1,7 +1,5 @@
 return {
-  'mfussenegger/nvim-jdtls',
-  ft = { 'java' },
+"mfussenegger/nvim-jdtls",
   config = function()
-    -- Do nothing here; the real setup is in ftplugin/java.lua
-  end,
+  end
 }
