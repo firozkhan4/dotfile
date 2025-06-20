@@ -1,0 +1,267 @@
+################# Start of all the settings
+
+# KEY DEFINITIONS TO REMEMBER
+# $mod = Set below
+# Mod4 = Super key
+# Mod1 = ALT key
+# Control = CTRL key
+# Shift = SHIFT key
+# Escape = ESCAPE key
+# Return = ENTER or RETURN key
+# KP_Enter = Keypad Enter
+# Pause = PAUSE key
+# Print = PRINT key
+# Tab = TAB key
+
+################# Define the $mod variable/key
+
+# Key to rule them all : Super(Windows) or Alt key - see definition above
+# set Super key
+set $mod Mod4
+
+include ~/.config/i3/firozkhan4/keybinds.conf
+include ~/.config/i3/firozkhan4/window.conf
+include ~/.config/i3/firozkhan4/autostart.conf
+
+
+
+# current displays
+exec --no-startup-id xrandr --output DP0 --right-of HDMI-0 --auto
+set $firstMonitor HDMI-1
+set $secondMonitor HDMI-2
+
+
+
+################# how to exit, logoff, suspend, ...
+
+# Backup exit
+# Press ctrl+alt+x - check toolbar for next choices
+bindsym control+mod1+X mode "$mode_system"
+
+set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
+mode "$mode_system" {
+    bindsym k exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"
+    bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
+    bindsym u exec --no-startup-id ~/.config/i3/scripts/i3exit.sh suspend, mode "default"
+    bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
+    bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# ArcoLinux Logout
+bindsym $mod+X exec --no-startup-id archlinux-logout
+bindsym $mod+Shift+X exec --no-startup-id arcolinux-powermenu
+
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+
+exec_always --no-startup-id floating disable
+# orientation for new workspaces
+
+################# resize  
+
+# Resizing by 1
+bindsym $mod+Mod1+Ctrl+Right resize shrink width 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+Up resize grow height 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+Down resize shrink height 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+Left resize grow width 1 px or 1 ppt
+################# choose the font                  
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+# choose your font
+font pango:Noto Mono Regular 8 
+
+# ArcoLinux Welcome App
+exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+
+# Autotiling
+
+# Authentication dialog
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Updater
+exec --no-startup-id pamac-tray
+
+# bluetooth
+# exec --no-startup-id blueberry-tray
+
+# network
+
+
+# volume
+# exec --no-startup-id pasystray
+exec --no-startup-id volumeicon
+################# system applications       
+
+exec --no-startup-id xfce4-power-manager &
+# ommitted next line to get super key to bring up the menu in xfce and avoid error then in i3
+# IF xfsettingsd is activated you can not change themes
+# exec --no-startup-id xfsettingsd &
+exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
+
+################# applications keyboard shortcuts  
+
+# not workspace related
+
+# ArcoLinux Welcome App
+bindsym control+Mod1+w exec --no-startup-id arcolinux-welcome-app
+
+# ArchLinux Tweak Tool
+bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
+
+# System monitor
+bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
+
+# settings
+bindsym control+mod1+m exec --no-startup-id xfce4-settings-manager
+
+# catfish
+bindsym control+mod1+c exec --no-startup-id catfish;focus
+
+# archlinux-logout
+
+# pavucontrol
+bindsym control+mod1+u exec --no-startup-id pavucontrol
+
+# start xfce-appfinder
+# arcolinux does not seem to work
+bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
+
+# pamac-manager
+bindsym control+mod1+p exec --no-startup-id pamac-manager
+
+
+bindsym control+mod1+v exec --no-startup-id vivaldi-stable;focus
+
+# Text Editor
+# bindsym $mod+F2 exec --no-startup-id geany;focus
+bindsym $mod+F2 exec --no-startup-id code;focus
+
+# Basic Draw Tool
+bindsym $mod+F3 exec --no-startup-id inkscape;focus
+
+# Advanced Draw Tool
+bindsym $mod+F4 exec --no-startup-id gimp;focus
+
+# document comparison
+bindsym $mod+F5 exec --no-startup-id meld;focus
+bindsym control+mod1+i exec --no-startup-id nitrogen;focus
+
+# video player
+bindsym $mod+F6 exec --no-startup-id vlc;focus
+
+# virtual machine
+bindsym $mod+F7 exec --no-startup-id virtualbox;focus
+
+# file management
+bindsym $mod+F8 exec --no-startup-id thunar;focus
+bindsym $mod+Shift+Return exec --no-startup-id thunar;focus
+bindsym $mod+Shift+KP_Enter exec --no-startup-id thunar;focus
+bindsym control+mod1+b exec --no-startup-id thunar;focus
+
+# Audio application
+bindsym $mod+F9 exec --no-startup-id lollypop;focus
+# bindsym $mod+F9 exec --no-startup-id geary;focus
+# bindsym control+mod1+e exec --no-startup-id geary;focus
+
+# music
+bindsym $mod+F10 exec --no-startup-id spotify;focus
+bindsym control+mod1+s exec --no-startup-id spotify;focus
+
+################# screenshots                      
+
+bindsym Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+bindsym Control+Print exec --no-startup-id xfce4-screenshooter
+bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
+bindsym $mod+Control+Print exec --no-startup-id flameshot gui
+# bindsym shift+Print exec --no-startup-id shutter
+
+
+
+################# Popups  control                  
+
+# Popups during fullscreen mode
+popup_during_fullscreen smart
+
+################ i3 gaps change                   
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
+
+################# bar appearance                   
+#
+# bar {
+#     height 25
+#     workspace_buttons yes
+# 	font pango:Noto Sans 8
+# 	# position top
+#     position bottom
+#
+# 	# status_command i3status
+#     status_command i3status -c ~/.config/i3/i3status.conf
+#
+#     colors {
+#         background #2F2F2F
+#         statusline #eeeeee
+#         separator  #666666
+#
+#         # colorclass           border  backgr. text
+#         focused_workspace     #a9a9a9 #5f676a #eeeeee
+#         active_workspace      #a9a9a9 #5f676a #eeeeee
+#         inactive_workspace    #a9a9a9 #222222 #a9a9a9
+#         urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+#         }
+#
+#     }
+#
+#     # class                 border  backgr. text    indicator
+#     client.focused          #6790EB #6790EB #e5e5e5 #6790EB
+#     client.unfocused        #222222 #222222 #aaaaaa #222222
+#     client.focused_inactive #222222 #222222 #a9a9a9 #222222
+#     client.placeholder      #222222 #222222 #aaaaaa #222222
+#     client.urgent           #d42121 #d42121 #f7f7f7 #d42121
+#
+#     client.background       #242424
+#
+
