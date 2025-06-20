@@ -1,0 +1,18 @@
+gui:
+  showIcons: true
+  theme:
+    activeBorderColor:
+      - magenta
+      - bold
+    inactiveBorderColor:
+      - black
+  showFileTree: true 
+os:
+  editPresent: "nvim"
+
+keybinding:
+  universal:
+    quit: "q"
+
+fontFamily: "JetBrains Mono"
+
