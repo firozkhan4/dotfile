@@ -12,12 +12,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  require('firozkhan4.plugins.miniicons'),
   require("firozkhan4.plugins.jdtls"),
   require("firozkhan4.plugins.mason"),
   require("firozkhan4.plugins.codeium"),
   require("firozkhan4.plugins.colortheme"),
   require("firozkhan4.plugins.emmet"),
-  require("firozkhan4.plugins.git"),
   require("firozkhan4.plugins.autocmp"),
   require("firozkhan4.plugins.treesitter"),
   require("firozkhan4.plugins.bufferline"),

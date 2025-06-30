@@ -49,7 +49,8 @@ keymap.set("n", "nn", function()
 end, { noremap = true, silent = true })
 
 -- Switch between buffer
-keymap.set("n", "<C-j>", "<C-w>w")
+keymap.set("n", "<C-l>", "<C-w>w", { noremap = true, silent = true })
+keymap.set("n", '<C-h>', '<C-w>h', { noremap = true, silent = true })
 
 
 vim.keymap.set("n", "<leader>f", function() vim.lsp.buf.format() end, { noremap = true, silent = true })
