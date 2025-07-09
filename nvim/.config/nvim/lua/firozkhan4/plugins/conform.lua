@@ -1,11 +1,22 @@
 return {
   "stevearc/conform.nvim",
-  event = { "BufReadPre", "BufNewFile", "BufWritePre" },
+  opts = {},
   config = function()
     require("conform").setup({
       formatters_by_ft = {
-        xml = { "xmlformatter" },      -- Or "xmllint", "xmlstarlet"
+        lua = { "stylua" },
+        python = { "black" },
+        java = { "google_java_format" },
+        go = { "gofmt" },
+        xml = { "xmlformatter" },
+        html = { "prettier" },
+        css = { "prettier" },
+        json = { "prettier" },
+        markdown = { "prettier" },
+        yaml = { "prettier" },
+        yml = { "prettier" },
+        rust = { "rustfmt" },
       },
     })
-  end,
+  end
 }

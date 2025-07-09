@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   require('firozkhan4.plugins.miniicons'),
   require("firozkhan4.plugins.jdtls"),
+  require("firozkhan4.plugins.conform"),
   require("firozkhan4.plugins.mason"),
   require("firozkhan4.plugins.codeium"),
   require("firozkhan4.plugins.colortheme"),
