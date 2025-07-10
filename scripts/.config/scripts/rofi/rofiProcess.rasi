@@ -1,0 +1,213 @@
+* {
+    background-color: transparent;
+    text-color: #ffffff;
+    font: "JetBrains Mono 11";
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    background-color: #1e1e2e;
+    border-radius: 12px;
+    width: 20%;
+    height: 70%;
+    location: center;
+    anchor: center;
+    transparency: "real";
+}
+
+mainbox {
+    background-color: transparent;
+    children: [ inputbar, listview ];
+    spacing: 10px;
+    padding: 15px;
+}
+
+inputbar {
+    background-color: #313244;
+    border-radius: 8px;
+    padding: 12px 16px;
+    text-color: #cdd6f4;
+    children: [ prompt, textbox-prompt-colon, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: #cba6f7;
+    font: "JetBrains Mono Bold 12";
+    margin: 0px 8px 0px 0px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: "";
+    background-color: transparent;
+    text-color: #cba6f7;
+    margin: 0px 8px 0px 0px;
+}
+
+entry {
+    background-color: transparent;
+    text-color: #cdd6f4;
+    cursor: text;
+    placeholder: "Filter processes...";
+    placeholder-color: #6c7086;
+}
+
+listview {
+    background-color: transparent;
+    columns: 1;
+    lines: 15;
+    cycle: false;
+    dynamic: true;
+    scrollbar: true;
+    layout: vertical;
+    reverse: false;
+    fixed-height: true;
+    fixed-columns: true;
+    border: 0px;
+    spacing: 2px;
+    padding: 5px 0px;
+}
+
+scrollbar {
+    width: 6px;
+    border: 0;
+    handle-color: #585b70;
+    handle-width: 6px;
+    padding: 0;
+    margin: 0px 3px 0px 0px;
+}
+
+element {
+    background-color: transparent;
+    text-color: #cdd6f4;
+    orientation: horizontal;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 0px 0px 1px 0px;
+    cursor: pointer;
+    font: "JetBrains Mono 10";
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: #cdd6f4;
+}
+
+element normal.urgent {
+    background-color: #f38ba8;
+    text-color: #1e1e2e;
+}
+
+element normal.active {
+    background-color: #a6e3a1;
+    text-color: #1e1e2e;
+}
+
+element selected.normal {
+    background-color: #cba6f7;
+    text-color: #1e1e2e;
+}
+
+element selected.urgent {
+    background-color: #f38ba8;
+    text-color: #1e1e2e;
+}
+
+element selected.active {
+    background-color: #a6e3a1;
+    text-color: #1e1e2e;
+}
+
+element alternate.normal {
+    background-color: rgba(49, 50, 68, 0.3);
+    text-color: #cdd6f4;
+}
+
+element alternate.urgent {
+    background-color: rgba(243, 139, 168, 0.3);
+    text-color: #cdd6f4;
+}
+
+element alternate.active {
+    background-color: rgba(166, 227, 161, 0.3);
+    text-color: #cdd6f4;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    highlight: underline bold #f9e2af;
+    cursor: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+}
+
+element-icon {
+    background-color: transparent;
+    size: 0px;
+    cursor: inherit;
+}
+
+/* Message styling for notifications */
+message {
+    background-color: #313244;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0px;
+}
+
+textbox {
+    background-color: transparent;
+    text-color: #cdd6f4;
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+    highlight: none;
+}
+
+/* Mode switcher (if used) */
+mode-switcher {
+    background-color: #313244;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0px 0px 0px;
+}
+
+button {
+    background-color: transparent;
+    text-color: #cdd6f4;
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+button selected {
+    background-color: #cba6f7;
+    text-color: #1e1e2e;
+}
+
+/* Additional styling for better process display */
+element.normal.normal {
+    background-color: transparent;
+}
+
+element.selected.normal {
+    background-color: #cba6f7;
+    text-color: #1e1e2e;
+    font: "JetBrains Mono Bold 10";
+}
+
+/* Hover effects */
+element.hover {
+    background-color: rgba(203, 166, 247, 0.2);
+}
+
+element selected.hover {
+    background-color: #b4befe;
+    text-color: #1e1e2e;
+}
