@@ -1,0 +1,34 @@
+# Basic look
+font=JetBrainsMono Nerd Font 10
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+border-size=2
+padding=10
+margin=10
+default-timeout=5000
+
+# Position
+anchor=top-right
+width=400
+height=200
+
+# Urgency-based styling
+[urgency=low]
+background-color=#1e1e2e
+text-color=#a6adc8
+border-color=#6c7086
+default-timeout=5000
+
+[urgency=normal]
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+default-timeout=5000
+
+[urgency=high]
+background-color=#f38ba8
+text-color=#1e1e2e
+border-color=#f38ba8
+default-timeout=5000
+
