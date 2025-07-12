@@ -12,6 +12,8 @@ settings:
     https://chatgpt.com: access-paste
   content.notifications.enabled:
     https://web.whatsapp.com: true
+    https://*.slack.com: true
+    https://mail.google.com: true
   tabs.padding:
     global:
       bottom: 5
