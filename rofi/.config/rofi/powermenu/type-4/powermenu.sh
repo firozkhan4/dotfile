@@ -57,8 +57,10 @@ run_cmd() {
 	selected="$(confirm_exit)"
 	if [[ "$selected" == "$yes" ]]; then
 		if [[ $1 == '--shutdown' ]]; then
+      bash /home/firoz/dotfile/scripts/.config/scripts/windowKill.sh
 			systemctl poweroff
     elif [[ $1 == '--lock' ]]; then
+      /home/firoz/dotfile/scripts/.config/scripts/windowKill.sh
       hyprlock 
 		elif [[ $1 == '--reboot' ]]; then
 			systemctl reboot
@@ -84,7 +86,7 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-        hyprlock
+    run_cmd --lock
         ;;
     $suspend)
 		run_cmd --suspend
