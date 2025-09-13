@@ -12,4 +12,3 @@ export PATH=$PATH:$GRADLE_HOME/bin
 
 export HYPRSHOT_DIR=$HOME/Pictures/screenshots
 
-export GOOGLE_API_KEY="AIzaSyBlTRt8Ek07MPD1z2BMjiymTr_C8U-TTlw"
