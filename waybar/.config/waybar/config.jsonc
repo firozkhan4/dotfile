@@ -1,14 +1,15 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 32,
-  "spacing": 0,
+  "height": 42,
+  "spacing": 1,
   "modules-left": [
     "hyprland/workspaces",
     "tray",
     "custom/lock",
     "custom/reboot",
-    "custom/power"
+    "custom/power",
+    "custom/spotify",
   ],
   "modules-center": ["hyprland/window"],
   "modules-right": [
@@ -24,41 +25,31 @@
   "hyprland/workspaces": {
     "disable-scroll": false,
     "all-outputs": true,
-    "format": "{icon}",
     "on-click": "activate",
     "persistent-workspaces": {
     },
-     "format-icons": {
-       "1": "",
-       "2": "󰈹",
-       "3": "󰇮",
-       "4": "",
-       "5": "",
-       "6": "",
-       "7": "󰣇",
-       "8": "",
-       "9": "📖",
-       "10": "🎶",
-       "default": ""
-     }
+  },
+  "custom/spotify": {
+    "format": "<span color='#1DB954'>  </span>",
+    "on-click": "playerctl -p spotify play-pause",
+    "on-click-right": "playerctl -p spotify next",
+    "on-click-middle": "playerctl -p spotify previous",
+    "tooltip": true
   },
   "custom/lock": {
   "format": "<span color='#00FFFF'>  </span>",
   "on-click": "hyprlock",
   "tooltip": true,
-  "tooltip-format": "锁屏"
   },
   "custom/reboot": {
     "format": "<span color='#FFD700'>  </span>",
     "on-click": "systemctl reboot",
     "tooltip": true,
-    "tooltip-format": "重启"
   },
   "custom/power": {
     "format": "<span color='#FF4040'>  </span>",
     "on-click": "systemctl poweroff",
     "tooltip": true,
-    "tooltip-format": "关机"
   },
   "network": {
     "format-wifi": "<span color='#00FFFF'> 󰤨 </span>{essid} ",
@@ -81,7 +72,7 @@
     "tooltip": true
   },
   "pulseaudio": {
-    "format": "<span color='#00FF7F'>{icon}</span>{volume}% ",
+    "format": "<span color='#00FF7F'> {icon} </span>{volume}% ",
     "format-muted": "<span color='#FF4040'> 󰖁 </span>0% ",
     "format-icons": {
       "headphone": "<span color='#BF00FF'>  </span>",
@@ -99,19 +90,16 @@
     "on-click-right": "pavucontrol -t 3",
     "on-click": "pactl -- set-sink-mute 0 toggle",
     "tooltip": true,
-    "tooltip-format": "当前系统声音: {volume}%"
   },
   "custom/temperature": {
     "exec": "sensors | awk '/^Package id 0:/ {print int($4)}'",
     "format": "<span color='#FFA500'> </span>{}°C ",
     "interval": 5,
     "tooltip": true,
-    "tooltip-format": "当前 CPU 温度: {}°C"
   },
   "memory": {
     "format": "<span color='#8A2BE2'>  </span>{used:0.1f}G/{total:0.1f}G ",
     "tooltip": true,
-    "tooltip-format": "当前内存占比: {used:0.2f}G/{total:0.2f}G"
   },
   "cpu": {
     "format": "<span color='#FF9F0A'>  </span>{usage}% ",
@@ -122,7 +110,6 @@
     "timezone": "Asia/Kolkata",
     "format": "<span color='#BF00FF'>  </span>{:%I:%M %p} ",
     "tooltip": true,
-    "tooltip-format": "{:L%Y 年 %m 月 %d 日, %A}"
   },
   "tray": {
     "icon-size": 17,
@@ -132,7 +119,6 @@
     "device": "intel_backlight",
     "format": "<span color='#FFD700'>{icon}</span>{percent}% ",
     "tooltip": true,
-    "tooltip-format": "当前屏幕亮度: {percent}%",
     "format-icons": [
       "<span color='#696969'> 󰃞 </span>",  // 暗 - 深灰
       "<span color='#A9A9A9'> 󰃝 </span>",  // 中 - 灰

@@ -5,3 +5,4 @@ alias ll='ls -alF'
 alias lg='lazygit'
 
 
+alias docker="sudo docker" 

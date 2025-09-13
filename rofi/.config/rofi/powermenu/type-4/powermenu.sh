@@ -59,9 +59,6 @@ run_cmd() {
 		if [[ $1 == '--shutdown' ]]; then
       bash /home/firoz/dotfile/scripts/.config/scripts/windowKill.sh
 			systemctl poweroff
-    elif [[ $1 == '--lock' ]]; then
-      /home/firoz/dotfile/scripts/.config/scripts/windowKill.sh
-      hyprlock 
 		elif [[ $1 == '--reboot' ]]; then
 			systemctl reboot
 		elif [[ $1 == '--suspend' ]]; then
@@ -86,7 +83,9 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-    run_cmd --lock
+      playerctl --player=spotify pause
+      hyprlock 
+      playerctl --player=spotify play
         ;;
     $suspend)
 		run_cmd --suspend
